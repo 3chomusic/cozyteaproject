@@ -1,0 +1,163 @@
+/* standart css rules */
+html { 
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header and nav */
+header {
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid seashell;
+}
+.logo {
+  height: 50px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-left: 25px;
+}
+nav a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: seashell;
+}
+
+/* main  */
+main{
+  background-image: url('../sources/img/img-mission-background.jpg');
+  background-size: cover;
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.container {
+  background-color: black;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h4 {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1.15rem;
+}
+
+/* Tea of the Month */
+.tom {
+  margin: 60px auto;
+  width: 1000px;
+
+}
+.content-container {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content-container img {
+  width: 300px;
+  height: 200px;
+  margin: 10px 15px;
+}
+.content-4, .content-5 {
+  margin-top: 15px;
+}
+p {
+  font-weight: 700;
+  font-size: 1.10rem;
+}
+
+/* Locations */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url('../sources/img/img-locations-background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ .locations-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
+
+.location-1, .location-2, .location-3 {
+  padding: 25px 0;
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+}
+.locations h2 {
+  font-size: 2rem;
+}
+.locations-container h3 {
+  font-weight: 700  ;
+  font-size: 1.3rem;
+}
+.locations-container p {
+  margin: 30px;
+  font-size: 0.8rem;
+}
+
+/* Footer */
+
+footer {
+  height: 200px;
+  width: 1200px;
+  margin: 20px auto;
+}
+
+footer p {
+  margin: 45px 0;
+}
+
+
+.copyright {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
